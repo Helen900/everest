@@ -1,0 +1,117 @@
+@media (max-width: 1024px) {
+
+    .page-title {
+        z-index: 2;
+    }   
+    
+    .page-title__nav {
+        display: none; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--blue-color);
+        overflow-y: auto;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .page-title__nav--open {
+        display: block;
+    }
+
+    .page-title__nav-close {
+        display: inline-flex;
+        position: absolute;
+        top: 15px;
+        padding: 0;
+        right: 15px;
+        width: 32px;
+        height: 32px;
+        background-color: #FCFCFC;
+        background-image: url('../img/icon-cross.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border: none;
+        cursor: pointer;
+    }
+
+    .page-title__nav-list {
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .page-title__nav-item {
+        margin-left: 0px;
+        margin-bottom: 10px;  
+    }
+
+ 
+    .page-title__burger {
+        display: inline-flex;
+    }
+     
+    .about__container {
+        grid-template-columns: none;
+    }
+    
+    .about__img {
+        width: 100%;
+    }
+
+    .portfolio {
+        height: 100%
+    }
+
+    .portfolio__list {
+        max-width: 100%;
+        grid-template-columns: none;
+        row-gap: 20px;
+    }
+
+    .portfolio__item {
+        grid-column: auto;
+    }
+
+    .portfolio__photo {
+        width: 100%;
+    }
+
+    .articles__container {
+        grid-template-columns: none;
+    }
+
+    .form-fieldset {
+        margin-bottom: 20px;
+    }
+
+    .content__container {
+        grid-template-columns: none;
+    }
+
+    .photo__forma::before {
+        background-image: none
+    }
+
+    .communication__info {
+        grid-template-columns: none;
+        row-gap: 20px;
+    }
+
+    .map__container {
+        width: 100%;
+    }
+
+    .footer__info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__info li {
+        margin: 10px 0;
+    }
+
+    }
+    
